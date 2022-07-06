@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(194, 223, 208);
+}
+h1{
+    color: #0e3997;
+}
+h3{
+    color: rgb(81, 79, 81);
+}
+
+hr{
+    /*
+    1st method
+    width: 100px;
+    height: 20px;
+    border: dotted;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-width: 5px;
+    border-color: gray; */
+
+    /*
+    2nd method 
+    border: 5px none gray;
+    border-top: dotted;
+    width: 100px; */
+
+    /* 3rd method */
+    width: 100px;
+    border: none;
+    border-top: dotted;
+    border-color: rgb(74, 102, 102);
+    border-width: 5px;
+
+}
+
+.hobbies{
+    color: blueviolet;
+}
+
+.skills{
+    color: rgb(111, 71, 28);
+}
+
+#hob123{
+    color: rgb(53, 41, 41);
+}
+
+/* tag >> class >> ID >>Inclass style */
